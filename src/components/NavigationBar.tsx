@@ -1,5 +1,7 @@
 import {FC} from "react";
 import { Button , CircleIcon } from "./";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faPhone, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 const CELL_NUMBERS: [string,string][] = [
     ["Phone","09997163580"],
@@ -27,10 +29,11 @@ const NavigationBar: FC = () => {
                     r="rounded-full"
                   />  
                   <CircleIcon
-                     image="./assets/icons/menu.png"
+                     Icon={<FontAwesomeIcon icon={faBars} />}
+                     iC="text-white"
+                     iS="text-xl"
                      alt="menu"
-                     iW="w-7"
-                     cS="p-1"
+                     cS="w-10 h-10"
                      cB="border border-white"
                   />
                </div>
@@ -41,9 +44,10 @@ const NavigationBar: FC = () => {
                            return  <div className="flex items-center gap-2" key={name}>
                                         <div>
                                             <CircleIcon 
-                                                image="./assets/icons/phone.png" 
+                                                Icon={<FontAwesomeIcon icon={faPhone} />}
+                                                iS="text-md"
+                                                iC="text-white"
                                                 alt="phone"
-                                                iW="w-5"
                                                 cS="p-2"
                                                 cC="bg-blue" 
                                             />
@@ -63,19 +67,21 @@ const NavigationBar: FC = () => {
            </div>
            <div className="text-white md:flex hidden justify-between items-center px-8 h-24 w-full max-w-screen-xl bg-light-blue">
                 <div className="gap-10 flex font-semibold">
-                    <div>
+                    <div className="hover:text-light-black cursor-pointer" >
                         Home
                     </div>
-                    <div>
+                    <div className="hover:text-light-black cursor-pointer">
                         About
                     </div>
-                    <div>
+                    <div onMouseOver={() => console.log("uWu")} className="hover:text-light-black cursor-pointer flex gap-1 items-center" >
                         Services
+                        <FontAwesomeIcon className="rotate-180" icon={faAngleUp} />
                     </div>
-                    <div>
+                    <div className="hover:text-light-black cursor-pointer flex items-center gap-1">
                         Solutions
+                        <FontAwesomeIcon className="rotate-180" icon={faAngleUp} />
                     </div>
-                    <div>
+                    <div className="hover:text-light-black cursor-pointer">
                         Contacts
                     </div>
                 </div>
