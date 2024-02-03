@@ -43,7 +43,7 @@ const Button: FC<props> = ({
         rA
     }) => {
     
-    let containerClass = "";
+    let containerClass = "inline-block cursor-pointer ";
 
     containerClass += tC ? tC + " " : "";
     containerClass += tS ? tS + " " : "";

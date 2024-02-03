@@ -13,4 +13,6 @@ body {
   margin: 0;
 }
 
-
+.knife-shape {
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}

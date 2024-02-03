@@ -10,7 +10,7 @@ const CELL_NUMBERS: [string,string][] = [
 ];
 
 const NavigationBar: FC = () => {
-    return <div className="z-10 sticky top-0">
+    return <div className="z-10 relative top-0">
         <div className="relative flex flex-col items-center">
            <div className="md:block hidden absolute w-full left-0 -z-10 h-32 bg-medium-gray"></div>
            <div className="px-3 md:pl-5 lg:px-0 w-full max-w-screen-xl h-20 bg-medium-gray flex items-center justify-between">
@@ -65,7 +65,7 @@ const NavigationBar: FC = () => {
                    }
               </div> 
            </div>
-           <div className="text-white md:flex hidden justify-between items-center px-8 h-24 w-full max-w-screen-xl bg-light-blue">
+           <div className="text-white md:flex hidden justify-between items-center px-8 h-20 w-full max-w-screen-xl bg-light-blue">
                 <div className="gap-10 flex font-semibold">
                     <div className="hover:text-light-black cursor-pointer" >
                         Home
