@@ -1,5 +1,13 @@
 import React from 'react';
-import { Header, NavigationBar, About, Services, Team } from "./components"; 
+import { Header,
+         NavigationBar,
+         About,
+         Services,
+         Team,
+         Sponsors,
+         Contacts,
+         Footer
+       } from "./components"; 
 
 function App() {
   return (
@@ -11,6 +19,9 @@ function App() {
          <About />
          <Services />
          <Team />
+         <Sponsors />
+         <Contacts />
+         <Footer />
     </div>
   );
 }

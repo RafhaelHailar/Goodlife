@@ -12,9 +12,11 @@ module.exports = {
         "light-black": "rgba(0,0,0,0.40)",
         "light-gray": "rgba(0,0,0,0.25)",
         "slight-gray": "rgba(196,196,196,0.1)",
+        "right-gray": "#D9D9D9",
         "blue": "#00B4D8",
         "light-blue": "#1FD1F5",
         "light-white": "rgba(255,255,255,0.7)",
+        "medium-blue": "rgba(0, 180, 216, 0.5)",
         "white": "#fff"
     },
     fontFamily: {
