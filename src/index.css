@@ -16,3 +16,15 @@ body {
 .knife-shape {
     clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
 }
+
+.cut-to-right {
+    clip-path: polygon(0% 0%, 40% 100%, 100% 100%, 100% 0);
+}
+
+.cut-to-left {
+    clip-path: polygon(0% 0%, 0% 100%, 60% 100%, 100% 0);
+}
+
+.darken-bg {
+    filter: brightness(50%); 
+}

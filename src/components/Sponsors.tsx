@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDocker, faDailymotion, faApple, faReact, faPaypal, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Sponsors: FC = () => {
-    return <div className="py-6 bg-black text-blue flex text-8xl justify-center gap-20">
+    return <div className="py-[2vw] bg-black text-blue flex md:text-[7vw] text-[26vw] overflow-hidden justify-center md:gap-[6vw] gap-[14vw]">
         <div>
             <FontAwesomeIcon icon={faDocker} />
         </div>

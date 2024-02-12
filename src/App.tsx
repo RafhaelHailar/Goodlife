@@ -11,11 +11,9 @@ import { Header,
 
 function App() {
   return (
-    <div className="App font-inter">
+    <div className="App overflow-hidden">
          <NavigationBar/>
-         <div className="md:h-auto h-screen relative -mt-10">
-             <Header />
-         </div>
+         <Header />
          <About />
          <Services />
          <Team />
