@@ -28,3 +28,7 @@ body {
 .darken-bg {
     filter: brightness(50%); 
 }
+
+.swiper-wrapper {
+    transition-timing-function: ease-out;
+}
