@@ -97,26 +97,26 @@ const NavigationBar: FC = () => {
         <div className="relative flex flex-col items-center">
            <div className="md:block hidden w-full left-0 -z-10 h-32 bg-medium-gray"></div>
            <div className="absolute w-full flex flex-col items-center">
-               <div className="px-3 md:pl-5 lg:px-0 w-full max-w-screen-xl h-20 bg-medium-gray flex items-center justify-between">
+               <div className="px-3 md:pl-5 lg:px-0 w-full max-w-screen-xl md:h-20 h-[20vw] bg-medium-gray flex items-center justify-between">
                    <div>
                        <img src="./assets/images/logo-1.png" className="w-36" alt="logo"/>
                    </div>
-                   <div className="md:hidden block flex gap-7">
+                   <div className="md:hidden block flex gap-[4vw]">
                       <Button  
                         text="Contact Me"
                         tC="text-white"
-                        tS="text-lg"
-                        bC="border-white"
-                        bW="border" padX="px-4"
-                        padY="py-1"
+                        tS="text-[4vw]"
+                        bC="border-white "
+                        bW="border" padX="px-[4vw]"
+                        padY="py-[0.9vw]"
                         r="rounded-full"
                       />  
                       <CircleIcon
                          Icon={<FontAwesomeIcon icon={faBars} />}
                          iC="text-white"
-                         iS="text-xl"
+                         iS="text-[5vw]"
                          alt="menu"
-                         cS="w-10 h-10"
+                         cS="w-[10vw] h-[10vw]"
                          cB="border border-white"
                       />
                    </div>

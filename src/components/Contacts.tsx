@@ -28,7 +28,7 @@ const Details = [
 const Contacts: FC = () => {
     return <div className="md:py-24 py-10 bg-slight-gray flex flex-col md:gap-0 gap-10">
         <div className="md:order-1 order-2 flex md:flex-row flex-col md:items-start items-center md:px-[3vw] md:gap-[2vw] gap-[8vw]">
-           <div className="bg-white md:p-8 p-5 rounded-xl md:w-[50vw] w-full">
+           <div className="bg-white md:p-8 p-5 rounded-xl md:w-[50vw]">
                <h2 className="md:text-[2.5vw] text-[10vw] font-bold mb-3">Send a message</h2>
                <p className="text-gray md:text-[1vw] text-[4vw]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus quam, fringilla et aliquet et, posuere vitae eros.</p>
                <form className="flex md:flex-row flex-col relative w-full flex-wrap gap-x-5 gap-y-5 mt-10">
@@ -40,7 +40,7 @@ const Contacts: FC = () => {
                        <input type="text" className={inputStyles} placeholder="Phone Number" />
                        <input type="text" className={inputStyles} placeholder="Subject" />
                    </div>
-                   <textarea placeholder="Message" rows={6} className="md:text-[1vw] text-[4vw] py-2 px-3 border-light-gray border rounded w-full"></textarea>
+                   <textarea placeholder="Message" rows={15} className="md:text-[1vw] text-[4vw] py-2 px-3 border-light-gray border rounded w-full"></textarea>
                    <button className="bg-blue text-white px-[1.5vw] md:text-[1vw] text-[4vw] md:py-[1vw] py-[2vw] rounded">Send Message</button>
                </form>
            </div>
