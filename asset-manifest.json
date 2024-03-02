@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Goodlife/static/css/main.433a76b5.css",
+    "main.js": "/Goodlife/static/js/main.afae5501.js",
+    "static/js/787.1f82c348.chunk.js": "/Goodlife/static/js/787.1f82c348.chunk.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/Goodlife/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
+    "index.html": "/Goodlife/index.html",
+    "main.433a76b5.css.map": "/Goodlife/static/css/main.433a76b5.css.map",
+    "main.afae5501.js.map": "/Goodlife/static/js/main.afae5501.js.map",
+    "787.1f82c348.chunk.js.map": "/Goodlife/static/js/787.1f82c348.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.433a76b5.css",
+    "static/js/main.afae5501.js"
+  ]
+}
